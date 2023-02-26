@@ -1,0 +1,40 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Less Is More!</title>
+    <!-- 
+        link to the style.less (your style sheet) and 
+        include the JS preprocessor that translates LESS to CSS
+      -->
+    <link
+      rel="stylesheet/less"
+      type="text/css"
+      href="./less/main.less"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+    <!-- Other options include use of node package manager (npm) to install Less and then compile the source -->
+  </head>
+  <body>
+    <nav>
+      Navigation
+    </nav>
+
+    <main>
+      <div id="box-container">
+        <div class="box first-box"></div>
+        <div class="box second-box"></div>
+        <div class="box third-box"></div>
+        <div class="box fourth-box"></div>
+      </div>
+    </main>
+
+    <footer>
+      Footer
+    </footer>
+  </body>
+</html>
